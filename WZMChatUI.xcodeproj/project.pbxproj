@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B81FC626CE8122009CBA63 /* XPYMQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B81FC226CE8122009CBA63 /* XPYMQTTManager.m */; };
+		04B81FC726CE8122009CBA63 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B81FC326CE8122009CBA63 /* BaseManager.m */; };
+		2214AF20199FE0CE4A01F11B /* libPods-WZMChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76451CC238D1BBDA2167A47F /* libPods-WZMChatUI.a */; };
+		64EA8AB9256CB006007EC7C3 /* WZMLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64EA8AB8256CB006007EC7C3 /* WZMLaunchScreen.storyboard */; };
+		7505DDEE22E69F710012A2E9 /* WZMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDBE22E69F710012A2E9 /* WZMInputView.m */; };
+		7505DDEF22E69F710012A2E9 /* WZMInputBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDC122E69F710012A2E9 /* WZMInputBtn.m */; };
+		7505DDF022E69F710012A2E9 /* WZMRecordAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDC422E69F710012A2E9 /* WZMRecordAnimation.m */; };
+		7505DDF122E69F710012A2E9 /* WZMToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDC522E69F710012A2E9 /* WZMToolView.m */; };
+		7505DDF222E69F710012A2E9 /* WZMEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDCC22E69F710012A2E9 /* WZMEmoticonManager.m */; };
+		7505DDF322E69F720012A2E9 /* WZMHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDD122E69F710012A2E9 /* WZMHorizontalLayout.m */; };
+		7505DDF422E69F720012A2E9 /* WZMEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDD622E69F710012A2E9 /* WZMEmoticonCell.m */; };
+		7505DDF522E69F720012A2E9 /* WZMBlankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDD722E69F710012A2E9 /* WZMBlankCell.m */; };
+		7505DDF622E69F720012A2E9 /* WZMDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDD922E69F710012A2E9 /* WZMDeleteCell.m */; };
+		7505DDF722E69F720012A2E9 /* WZMEmojisCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDDA22E69F710012A2E9 /* WZMEmojisCell.m */; };
+		7505DDF822E69F720012A2E9 /* WZMEmojisKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDDB22E69F710012A2E9 /* WZMEmojisKeyboard.m */; };
+		7505DDF922E69F720012A2E9 /* WZMMoreKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDDE22E69F710012A2E9 /* WZMMoreKeyboard.m */; };
+		7505DDFE22E69F720012A2E9 /* WZMInputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDE622E69F710012A2E9 /* WZMInputHelper.m */; };
+		7505DDFF22E69F720012A2E9 /* WZMInputBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDE722E69F710012A2E9 /* WZMInputBase64.m */; };
+		7505DE0022E69F720012A2E9 /* WZMBaseInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DDED22E69F710012A2E9 /* WZMBaseInputView.m */; };
+		7505DE0322E6A0940012A2E9 /* WZMChatBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7505DE0122E6A0940012A2E9 /* WZMChatBtn.m */; };
+		7505DE0422E6A3660012A2E9 /* WZMEmojis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7505DDE322E69F710012A2E9 /* WZMEmojis.plist */; };
+		7505DE0522E6A3660012A2E9 /* WZMEmoticon1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7505DDE222E69F710012A2E9 /* WZMEmoticon1.plist */; };
+		7505DE0622E6A3660012A2E9 /* WZMEmoticon2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7505DDE122E69F710012A2E9 /* WZMEmoticon2.plist */; };
+		7505DE0722E6A3660012A2E9 /* WZMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7505DDE422E69F710012A2E9 /* WZMEmoticon.bundle */; };
+		753D70D222E42EC500A55E83 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 753D70D022E42EC500A55E83 /* preview.png */; };
+		753D70D322E42EC500A55E83 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 753D70D122E42EC500A55E83 /* setting.png */; };
+		754A1F7D22E2BE53005A0585 /* WZMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F7C22E2BE53005A0585 /* WZMAppDelegate.m */; };
+		754A1F7F22E2BE54005A0585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754A1F7E22E2BE54005A0585 /* Assets.xcassets */; };
+		754A1F8522E2BE54005A0585 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F8422E2BE54005A0585 /* main.m */; };
+		754A1F9A22E2BEB6005A0585 /* WZMUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F8F22E2BEB6005A0585 /* WZMUserViewController.m */; };
+		754A1F9B22E2BEB6005A0585 /* WZMUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F9222E2BEB6005A0585 /* WZMUserTableViewCell.m */; };
+		754A1F9C22E2BEB6005A0585 /* WZMSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F9522E2BEB6005A0585 /* WZMSessionViewController.m */; };
+		754A1F9D22E2BEB6005A0585 /* WZMSessionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1F9922E2BEB6005A0585 /* WZMSessionTableViewCell.m */; };
+		754A1FFF22E2BF24005A0585 /* WZMChatMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FA122E2BF23005A0585 /* WZMChatMessageManager.m */; };
+		754A200022E2BF24005A0585 /* WZMChatNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FA322E2BF23005A0585 /* WZMChatNotificationManager.m */; };
+		754A200122E2BF24005A0585 /* WZMChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FA522E2BF23005A0585 /* WZMChatHelper.m */; };
+		754A200222E2BF24005A0585 /* WZMChatSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FA822E2BF23005A0585 /* WZMChatSqliteManager.m */; };
+		754A200322E2BF24005A0585 /* WZMChatDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FAB22E2BF23005A0585 /* WZMChatDBManager.m */; };
+		754A200422E2BF24005A0585 /* WZMChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FB022E2BF23005A0585 /* WZMChatBaseCell.m */; };
+		754A201022E2BF24005A0585 /* WZMChatSystemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FD122E2BF24005A0585 /* WZMChatSystemCell.m */; };
+		754A201122E2BF24005A0585 /* WZMChatTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FD222E2BF24005A0585 /* WZMChatTextMessageCell.m */; };
+		754A201222E2BF24005A0585 /* WZMChatImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FD422E2BF24005A0585 /* WZMChatImageMessageCell.m */; };
+		754A201322E2BF24005A0585 /* WZMChatVideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FD622E2BF24005A0585 /* WZMChatVideoMessageCell.m */; };
+		754A201422E2BF24005A0585 /* WZMChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FD922E2BF24005A0585 /* WZMChatMessageCell.m */; };
+		754A201522E2BF24005A0585 /* WZMChatVoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FDC22E2BF24005A0585 /* WZMChatVoiceMessageCell.m */; };
+		754A201722E2BF24005A0585 /* NSDateFormatter+WZMChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FE022E2BF24005A0585 /* NSDateFormatter+WZMChat.m */; };
+		754A201B22E2BF24005A0585 /* UIView+WZMChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FE722E2BF24005A0585 /* UIView+WZMChat.m */; };
+		754A201D22E2BF24005A0585 /* WZMChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FEE22E2BF24005A0585 /* WZMChatViewController.m */; };
+		754A201E22E2BF24005A0585 /* WZMChatBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FF322E2BF24005A0585 /* WZMChatBaseModel.m */; };
+		754A201F22E2BF24005A0585 /* WZMChatSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FF622E2BF24005A0585 /* WZMChatSessionModel.m */; };
+		754A202022E2BF24005A0585 /* WZMChatUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FF922E2BF24005A0585 /* WZMChatUserModel.m */; };
+		754A202122E2BF24005A0585 /* WZMChatGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FFA22E2BF24005A0585 /* WZMChatGroupModel.m */; };
+		754A202222E2BF24005A0585 /* WZMChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754A1FFC22E2BF24005A0585 /* WZMChatMessageModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B81FC226CE8122009CBA63 /* XPYMQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYMQTTManager.m; sourceTree = "<group>"; };
+		04B81FC326CE8122009CBA63 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
+		04B81FC426CE8122009CBA63 /* XPYMQTTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYMQTTManager.h; sourceTree = "<group>"; };
+		04B81FC526CE8122009CBA63 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
+		2BE9DBEBB47A43E3AE585AE5 /* Pods-WZMChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZMChatUI.release.xcconfig"; path = "Target Support Files/Pods-WZMChatUI/Pods-WZMChatUI.release.xcconfig"; sourceTree = "<group>"; };
+		2CA87E10E035E427AAE16050 /* Pods-WZMChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZMChatUI.debug.xcconfig"; path = "Target Support Files/Pods-WZMChatUI/Pods-WZMChatUI.debug.xcconfig"; sourceTree = "<group>"; };
+		64EA8AB8256CB006007EC7C3 /* WZMLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WZMLaunchScreen.storyboard; sourceTree = "<group>"; };
+		7505DDBE22E69F710012A2E9 /* WZMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMInputView.m; sourceTree = "<group>"; };
+		7505DDC122E69F710012A2E9 /* WZMInputBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMInputBtn.m; sourceTree = "<group>"; };
+		7505DDC222E69F710012A2E9 /* WZMInputBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMInputBtn.h; sourceTree = "<group>"; };
+		7505DDC422E69F710012A2E9 /* WZMRecordAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMRecordAnimation.m; sourceTree = "<group>"; };
+		7505DDC522E69F710012A2E9 /* WZMToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMToolView.m; sourceTree = "<group>"; };
+		7505DDC622E69F710012A2E9 /* WZMRecordAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMRecordAnimation.h; sourceTree = "<group>"; };
+		7505DDC722E69F710012A2E9 /* WZMToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMToolView.h; sourceTree = "<group>"; };
+		7505DDCA22E69F710012A2E9 /* WZMEmojisKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMEmojisKeyboard.h; sourceTree = "<group>"; };
+		7505DDCC22E69F710012A2E9 /* WZMEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMEmoticonManager.m; sourceTree = "<group>"; };
+		7505DDCD22E69F710012A2E9 /* WZMEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMEmoticonManager.h; sourceTree = "<group>"; };
+		7505DDD022E69F710012A2E9 /* WZMHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMHorizontalLayout.h; sourceTree = "<group>"; };
+		7505DDD122E69F710012A2E9 /* WZMHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMHorizontalLayout.m; sourceTree = "<group>"; };
+		7505DDD322E69F710012A2E9 /* WZMBlankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMBlankCell.h; sourceTree = "<group>"; };
+		7505DDD422E69F710012A2E9 /* WZMEmojisCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMEmojisCell.h; sourceTree = "<group>"; };
+		7505DDD522E69F710012A2E9 /* WZMDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMDeleteCell.h; sourceTree = "<group>"; };
+		7505DDD622E69F710012A2E9 /* WZMEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMEmoticonCell.m; sourceTree = "<group>"; };
+		7505DDD722E69F710012A2E9 /* WZMBlankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMBlankCell.m; sourceTree = "<group>"; };
+		7505DDD822E69F710012A2E9 /* WZMEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMEmoticonCell.h; sourceTree = "<group>"; };
+		7505DDD922E69F710012A2E9 /* WZMDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMDeleteCell.m; sourceTree = "<group>"; };
+		7505DDDA22E69F710012A2E9 /* WZMEmojisCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMEmojisCell.m; sourceTree = "<group>"; };
+		7505DDDB22E69F710012A2E9 /* WZMEmojisKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMEmojisKeyboard.m; sourceTree = "<group>"; };
+		7505DDDD22E69F710012A2E9 /* WZMMoreKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMMoreKeyboard.h; sourceTree = "<group>"; };
+		7505DDDE22E69F710012A2E9 /* WZMMoreKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMMoreKeyboard.m; sourceTree = "<group>"; };
+		7505DDDF22E69F710012A2E9 /* WZMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMInputView.h; sourceTree = "<group>"; };
+		7505DDE122E69F710012A2E9 /* WZMEmoticon2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WZMEmoticon2.plist; sourceTree = "<group>"; };
+		7505DDE222E69F710012A2E9 /* WZMEmoticon1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WZMEmoticon1.plist; sourceTree = "<group>"; };
+		7505DDE322E69F710012A2E9 /* WZMEmojis.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = WZMEmojis.plist; sourceTree = "<group>"; };
+		7505DDE422E69F710012A2E9 /* WZMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WZMEmoticon.bundle; sourceTree = "<group>"; };
+		7505DDE622E69F710012A2E9 /* WZMInputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMInputHelper.m; sourceTree = "<group>"; };
+		7505DDE722E69F710012A2E9 /* WZMInputBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMInputBase64.m; sourceTree = "<group>"; };
+		7505DDE822E69F710012A2E9 /* WZNInputEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZNInputEnum.h; sourceTree = "<group>"; };
+		7505DDE922E69F710012A2E9 /* WZMInputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMInputHelper.h; sourceTree = "<group>"; };
+		7505DDEA22E69F710012A2E9 /* WZMInputBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMInputBase64.h; sourceTree = "<group>"; };
+		7505DDEC22E69F710012A2E9 /* WZMBaseInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMBaseInputView.h; sourceTree = "<group>"; };
+		7505DDED22E69F710012A2E9 /* WZMBaseInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMBaseInputView.m; sourceTree = "<group>"; };
+		7505DE0122E6A0940012A2E9 /* WZMChatBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatBtn.m; sourceTree = "<group>"; };
+		7505DE0222E6A0940012A2E9 /* WZMChatBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatBtn.h; sourceTree = "<group>"; };
+		753D70D022E42EC500A55E83 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		753D70D122E42EC500A55E83 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		754A1F7822E2BE53005A0585 /* WZMChatUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZMChatUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		754A1F7B22E2BE53005A0585 /* WZMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZMAppDelegate.h; sourceTree = "<group>"; };
+		754A1F7C22E2BE53005A0585 /* WZMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZMAppDelegate.m; sourceTree = "<group>"; };
+		754A1F7E22E2BE54005A0585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		754A1F8322E2BE54005A0585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754A1F8422E2BE54005A0585 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		754A1F8E22E2BEB6005A0585 /* WZMUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMUserViewController.h; sourceTree = "<group>"; };
+		754A1F8F22E2BEB6005A0585 /* WZMUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMUserViewController.m; sourceTree = "<group>"; };
+		754A1F9122E2BEB6005A0585 /* WZMUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMUserTableViewCell.h; sourceTree = "<group>"; };
+		754A1F9222E2BEB6005A0585 /* WZMUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMUserTableViewCell.m; sourceTree = "<group>"; };
+		754A1F9522E2BEB6005A0585 /* WZMSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMSessionViewController.m; sourceTree = "<group>"; };
+		754A1F9622E2BEB6005A0585 /* WZMSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMSessionViewController.h; sourceTree = "<group>"; };
+		754A1F9822E2BEB6005A0585 /* WZMSessionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMSessionTableViewCell.h; sourceTree = "<group>"; };
+		754A1F9922E2BEB6005A0585 /* WZMSessionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMSessionTableViewCell.m; sourceTree = "<group>"; };
+		754A1FA122E2BF23005A0585 /* WZMChatMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatMessageManager.m; sourceTree = "<group>"; };
+		754A1FA222E2BF23005A0585 /* WZMChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatHelper.h; sourceTree = "<group>"; };
+		754A1FA322E2BF23005A0585 /* WZMChatNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatNotificationManager.m; sourceTree = "<group>"; };
+		754A1FA422E2BF23005A0585 /* WZMChatMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatMessageManager.h; sourceTree = "<group>"; };
+		754A1FA522E2BF23005A0585 /* WZMChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatHelper.m; sourceTree = "<group>"; };
+		754A1FA622E2BF23005A0585 /* WZMChatNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatNotificationManager.h; sourceTree = "<group>"; };
+		754A1FA822E2BF23005A0585 /* WZMChatSqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatSqliteManager.m; sourceTree = "<group>"; };
+		754A1FA922E2BF23005A0585 /* WZMChatSqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatSqliteManager.h; sourceTree = "<group>"; };
+		754A1FAB22E2BF23005A0585 /* WZMChatDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatDBManager.m; sourceTree = "<group>"; };
+		754A1FAC22E2BF23005A0585 /* WZMChatDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatDBManager.h; sourceTree = "<group>"; };
+		754A1FAF22E2BF23005A0585 /* WZMChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatBaseCell.h; sourceTree = "<group>"; };
+		754A1FB022E2BF23005A0585 /* WZMChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatBaseCell.m; sourceTree = "<group>"; };
+		754A1FD122E2BF24005A0585 /* WZMChatSystemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatSystemCell.m; sourceTree = "<group>"; };
+		754A1FD222E2BF24005A0585 /* WZMChatTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatTextMessageCell.m; sourceTree = "<group>"; };
+		754A1FD322E2BF24005A0585 /* WZMChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatMessageCell.h; sourceTree = "<group>"; };
+		754A1FD422E2BF24005A0585 /* WZMChatImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatImageMessageCell.m; sourceTree = "<group>"; };
+		754A1FD522E2BF24005A0585 /* WZMChatVoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatVoiceMessageCell.h; sourceTree = "<group>"; };
+		754A1FD622E2BF24005A0585 /* WZMChatVideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatVideoMessageCell.m; sourceTree = "<group>"; };
+		754A1FD722E2BF24005A0585 /* WZMChatSystemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatSystemCell.h; sourceTree = "<group>"; };
+		754A1FD822E2BF24005A0585 /* WZMChatImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatImageMessageCell.h; sourceTree = "<group>"; };
+		754A1FD922E2BF24005A0585 /* WZMChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatMessageCell.m; sourceTree = "<group>"; };
+		754A1FDA22E2BF24005A0585 /* WZMChatTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatTextMessageCell.h; sourceTree = "<group>"; };
+		754A1FDB22E2BF24005A0585 /* WZMChatVideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatVideoMessageCell.h; sourceTree = "<group>"; };
+		754A1FDC22E2BF24005A0585 /* WZMChatVoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatVoiceMessageCell.m; sourceTree = "<group>"; };
+		754A1FDE22E2BF24005A0585 /* UIView+WZMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZMChat.h"; sourceTree = "<group>"; };
+		754A1FE022E2BF24005A0585 /* NSDateFormatter+WZMChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+WZMChat.m"; sourceTree = "<group>"; };
+		754A1FE522E2BF24005A0585 /* NSDateFormatter+WZMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+WZMChat.h"; sourceTree = "<group>"; };
+		754A1FE722E2BF24005A0585 /* UIView+WZMChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZMChat.m"; sourceTree = "<group>"; };
+		754A1FEC22E2BF24005A0585 /* WZChatMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZChatMacro.h; sourceTree = "<group>"; };
+		754A1FEE22E2BF24005A0585 /* WZMChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatViewController.m; sourceTree = "<group>"; };
+		754A1FEF22E2BF24005A0585 /* WZMChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatViewController.h; sourceTree = "<group>"; };
+		754A1FF222E2BF24005A0585 /* WZMChatBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatBaseModel.h; sourceTree = "<group>"; };
+		754A1FF322E2BF24005A0585 /* WZMChatBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatBaseModel.m; sourceTree = "<group>"; };
+		754A1FF522E2BF24005A0585 /* WZMChatUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatUserModel.h; sourceTree = "<group>"; };
+		754A1FF622E2BF24005A0585 /* WZMChatSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatSessionModel.m; sourceTree = "<group>"; };
+		754A1FF722E2BF24005A0585 /* WZMChatGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatGroupModel.h; sourceTree = "<group>"; };
+		754A1FF822E2BF24005A0585 /* WZMChatSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatSessionModel.h; sourceTree = "<group>"; };
+		754A1FF922E2BF24005A0585 /* WZMChatUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatUserModel.m; sourceTree = "<group>"; };
+		754A1FFA22E2BF24005A0585 /* WZMChatGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatGroupModel.m; sourceTree = "<group>"; };
+		754A1FFC22E2BF24005A0585 /* WZMChatMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZMChatMessageModel.m; sourceTree = "<group>"; };
+		754A1FFD22E2BF24005A0585 /* WZMChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChatMessageModel.h; sourceTree = "<group>"; };
+		754A1FFE22E2BF24005A0585 /* WZMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZMChat.h; sourceTree = "<group>"; };
+		76451CC238D1BBDA2167A47F /* libPods-WZMChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WZMChatUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		754A1F7522E2BE53005A0585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2214AF20199FE0CE4A01F11B /* libPods-WZMChatUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B81FC126CE8122009CBA63 /* MQTTHelper */ = {
+			isa = PBXGroup;
+			children = (
+				04B81FC226CE8122009CBA63 /* XPYMQTTManager.m */,
+				04B81FC326CE8122009CBA63 /* BaseManager.m */,
+				04B81FC426CE8122009CBA63 /* XPYMQTTManager.h */,
+				04B81FC526CE8122009CBA63 /* BaseManager.h */,
+			);
+			path = MQTTHelper;
+			sourceTree = "<group>";
+		};
+		34149353E9A9863986ED527F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76451CC238D1BBDA2167A47F /* libPods-WZMChatUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7505DDBC22E69F710012A2E9 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDBD22E69F710012A2E9 /* InputView */,
+				7505DDEB22E69F710012A2E9 /* BaseInputView */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		7505DDBD22E69F710012A2E9 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDDF22E69F710012A2E9 /* WZMInputView.h */,
+				7505DDBE22E69F710012A2E9 /* WZMInputView.m */,
+				7505DDBF22E69F710012A2E9 /* View */,
+				7505DDE522E69F710012A2E9 /* Helper */,
+				7505DDE022E69F710012A2E9 /* Resource */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		7505DDBF22E69F710012A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDC022E69F710012A2E9 /* Btn */,
+				7505DDC322E69F710012A2E9 /* ToolView */,
+				7505DDC822E69F710012A2E9 /* Keyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7505DDC022E69F710012A2E9 /* Btn */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDC222E69F710012A2E9 /* WZMInputBtn.h */,
+				7505DDC122E69F710012A2E9 /* WZMInputBtn.m */,
+			);
+			path = Btn;
+			sourceTree = "<group>";
+		};
+		7505DDC322E69F710012A2E9 /* ToolView */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDC722E69F710012A2E9 /* WZMToolView.h */,
+				7505DDC522E69F710012A2E9 /* WZMToolView.m */,
+				7505DDC622E69F710012A2E9 /* WZMRecordAnimation.h */,
+				7505DDC422E69F710012A2E9 /* WZMRecordAnimation.m */,
+			);
+			path = ToolView;
+			sourceTree = "<group>";
+		};
+		7505DDC822E69F710012A2E9 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDDC22E69F710012A2E9 /* MoreKeyboard */,
+				7505DDC922E69F710012A2E9 /* EmojisKeyboard */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		7505DDC922E69F710012A2E9 /* EmojisKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDCA22E69F710012A2E9 /* WZMEmojisKeyboard.h */,
+				7505DDDB22E69F710012A2E9 /* WZMEmojisKeyboard.m */,
+				7505DDCE22E69F710012A2E9 /* View */,
+				7505DDCB22E69F710012A2E9 /* EmoticonManager */,
+			);
+			path = EmojisKeyboard;
+			sourceTree = "<group>";
+		};
+		7505DDCB22E69F710012A2E9 /* EmoticonManager */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDCD22E69F710012A2E9 /* WZMEmoticonManager.h */,
+				7505DDCC22E69F710012A2E9 /* WZMEmoticonManager.m */,
+			);
+			path = EmoticonManager;
+			sourceTree = "<group>";
+		};
+		7505DDCE22E69F710012A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDD222E69F710012A2E9 /* Cell */,
+				7505DDCF22E69F710012A2E9 /* Layout */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7505DDCF22E69F710012A2E9 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDD022E69F710012A2E9 /* WZMHorizontalLayout.h */,
+				7505DDD122E69F710012A2E9 /* WZMHorizontalLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		7505DDD222E69F710012A2E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDD322E69F710012A2E9 /* WZMBlankCell.h */,
+				7505DDD722E69F710012A2E9 /* WZMBlankCell.m */,
+				7505DDD522E69F710012A2E9 /* WZMDeleteCell.h */,
+				7505DDD922E69F710012A2E9 /* WZMDeleteCell.m */,
+				7505DDD422E69F710012A2E9 /* WZMEmojisCell.h */,
+				7505DDDA22E69F710012A2E9 /* WZMEmojisCell.m */,
+				7505DDD822E69F710012A2E9 /* WZMEmoticonCell.h */,
+				7505DDD622E69F710012A2E9 /* WZMEmoticonCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7505DDDC22E69F710012A2E9 /* MoreKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDDD22E69F710012A2E9 /* WZMMoreKeyboard.h */,
+				7505DDDE22E69F710012A2E9 /* WZMMoreKeyboard.m */,
+			);
+			path = MoreKeyboard;
+			sourceTree = "<group>";
+		};
+		7505DDE022E69F710012A2E9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDE322E69F710012A2E9 /* WZMEmojis.plist */,
+				7505DDE222E69F710012A2E9 /* WZMEmoticon1.plist */,
+				7505DDE122E69F710012A2E9 /* WZMEmoticon2.plist */,
+				7505DDE422E69F710012A2E9 /* WZMEmoticon.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7505DDE522E69F710012A2E9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDE822E69F710012A2E9 /* WZNInputEnum.h */,
+				7505DDE922E69F710012A2E9 /* WZMInputHelper.h */,
+				7505DDE622E69F710012A2E9 /* WZMInputHelper.m */,
+				7505DDEA22E69F710012A2E9 /* WZMInputBase64.h */,
+				7505DDE722E69F710012A2E9 /* WZMInputBase64.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7505DDEB22E69F710012A2E9 /* BaseInputView */ = {
+			isa = PBXGroup;
+			children = (
+				7505DDEC22E69F710012A2E9 /* WZMBaseInputView.h */,
+				7505DDED22E69F710012A2E9 /* WZMBaseInputView.m */,
+			);
+			path = BaseInputView;
+			sourceTree = "<group>";
+		};
+		7505DE0822E6D2DB0012A2E9 /* Btn */ = {
+			isa = PBXGroup;
+			children = (
+				7505DE0222E6A0940012A2E9 /* WZMChatBtn.h */,
+				7505DE0122E6A0940012A2E9 /* WZMChatBtn.m */,
+			);
+			path = Btn;
+			sourceTree = "<group>";
+		};
+		753D70CE22E368C600A55E83 /* WZMAppDelegete */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F7B22E2BE53005A0585 /* WZMAppDelegate.h */,
+				754A1F7C22E2BE53005A0585 /* WZMAppDelegate.m */,
+				64EA8AB8256CB006007EC7C3 /* WZMLaunchScreen.storyboard */,
+				754A1F7E22E2BE54005A0585 /* Assets.xcassets */,
+				754A1F8322E2BE54005A0585 /* Info.plist */,
+				754A1F8422E2BE54005A0585 /* main.m */,
+			);
+			path = WZMAppDelegete;
+			sourceTree = "<group>";
+		};
+		753D70CF22E42EC500A55E83 /* GitImage */ = {
+			isa = PBXGroup;
+			children = (
+				753D70D022E42EC500A55E83 /* preview.png */,
+				753D70D122E42EC500A55E83 /* setting.png */,
+			);
+			path = GitImage;
+			sourceTree = "<group>";
+		};
+		754A1F6F22E2BE53005A0585 = {
+			isa = PBXGroup;
+			children = (
+				754A1F7A22E2BE53005A0585 /* WZMChatUI */,
+				754A1F7922E2BE53005A0585 /* Products */,
+				BF51ABE6D1E6A1CF32161B9C /* Pods */,
+				34149353E9A9863986ED527F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		754A1F7922E2BE53005A0585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F7822E2BE53005A0585 /* WZMChatUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		754A1F7A22E2BE53005A0585 /* WZMChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				04B81FC126CE8122009CBA63 /* MQTTHelper */,
+				753D70CE22E368C600A55E83 /* WZMAppDelegete */,
+				754A1F9E22E2BEF3005A0585 /* Chat */,
+				754A1F8C22E2BEB6005A0585 /* Friend */,
+				754A1F9322E2BEB6005A0585 /* Session */,
+				753D70CF22E42EC500A55E83 /* GitImage */,
+			);
+			path = WZMChatUI;
+			sourceTree = "<group>";
+		};
+		754A1F8C22E2BEB6005A0585 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F9022E2BEB6005A0585 /* View */,
+				754A1F8D22E2BEB6005A0585 /* Controller */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		754A1F8D22E2BEB6005A0585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F8E22E2BEB6005A0585 /* WZMUserViewController.h */,
+				754A1F8F22E2BEB6005A0585 /* WZMUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		754A1F9022E2BEB6005A0585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F9122E2BEB6005A0585 /* WZMUserTableViewCell.h */,
+				754A1F9222E2BEB6005A0585 /* WZMUserTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		754A1F9322E2BEB6005A0585 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F9722E2BEB6005A0585 /* View */,
+				754A1F9422E2BEB6005A0585 /* Controller */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		754A1F9422E2BEB6005A0585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F9622E2BEB6005A0585 /* WZMSessionViewController.h */,
+				754A1F9522E2BEB6005A0585 /* WZMSessionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		754A1F9722E2BEB6005A0585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F9822E2BEB6005A0585 /* WZMSessionTableViewCell.h */,
+				754A1F9922E2BEB6005A0585 /* WZMSessionTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		754A1F9E22E2BEF3005A0585 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FFE22E2BF24005A0585 /* WZMChat.h */,
+				754A1FAD22E2BF23005A0585 /* View */,
+				754A1FF022E2BF24005A0585 /* Model */,
+				754A1FED22E2BF24005A0585 /* Controller */,
+				754A1FDD22E2BF24005A0585 /* Category */,
+				754A1F9F22E2BF23005A0585 /* Common */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		754A1F9F22E2BF23005A0585 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FEC22E2BF24005A0585 /* WZChatMacro.h */,
+				754A1FA222E2BF23005A0585 /* WZMChatHelper.h */,
+				754A1FA522E2BF23005A0585 /* WZMChatHelper.m */,
+				754A1FAC22E2BF23005A0585 /* WZMChatDBManager.h */,
+				754A1FAB22E2BF23005A0585 /* WZMChatDBManager.m */,
+				754A1FA922E2BF23005A0585 /* WZMChatSqliteManager.h */,
+				754A1FA822E2BF23005A0585 /* WZMChatSqliteManager.m */,
+				754A1FA422E2BF23005A0585 /* WZMChatMessageManager.h */,
+				754A1FA122E2BF23005A0585 /* WZMChatMessageManager.m */,
+				754A1FA622E2BF23005A0585 /* WZMChatNotificationManager.h */,
+				754A1FA322E2BF23005A0585 /* WZMChatNotificationManager.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		754A1FAD22E2BF23005A0585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7505DE0822E6D2DB0012A2E9 /* Btn */,
+				754A1FD022E2BF24005A0585 /* MsgCell */,
+				7505DDBC22E69F710012A2E9 /* InputView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		754A1FAE22E2BF23005A0585 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FAF22E2BF23005A0585 /* WZMChatBaseCell.h */,
+				754A1FB022E2BF23005A0585 /* WZMChatBaseCell.m */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		754A1FD022E2BF24005A0585 /* MsgCell */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FAE22E2BF23005A0585 /* BaseCell */,
+				754A1FD322E2BF24005A0585 /* WZMChatMessageCell.h */,
+				754A1FD922E2BF24005A0585 /* WZMChatMessageCell.m */,
+				754A1FD722E2BF24005A0585 /* WZMChatSystemCell.h */,
+				754A1FD122E2BF24005A0585 /* WZMChatSystemCell.m */,
+				754A1FDA22E2BF24005A0585 /* WZMChatTextMessageCell.h */,
+				754A1FD222E2BF24005A0585 /* WZMChatTextMessageCell.m */,
+				754A1FD822E2BF24005A0585 /* WZMChatImageMessageCell.h */,
+				754A1FD422E2BF24005A0585 /* WZMChatImageMessageCell.m */,
+				754A1FD522E2BF24005A0585 /* WZMChatVoiceMessageCell.h */,
+				754A1FDC22E2BF24005A0585 /* WZMChatVoiceMessageCell.m */,
+				754A1FDB22E2BF24005A0585 /* WZMChatVideoMessageCell.h */,
+				754A1FD622E2BF24005A0585 /* WZMChatVideoMessageCell.m */,
+			);
+			path = MsgCell;
+			sourceTree = "<group>";
+		};
+		754A1FDD22E2BF24005A0585 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FDE22E2BF24005A0585 /* UIView+WZMChat.h */,
+				754A1FE722E2BF24005A0585 /* UIView+WZMChat.m */,
+				754A1FE522E2BF24005A0585 /* NSDateFormatter+WZMChat.h */,
+				754A1FE022E2BF24005A0585 /* NSDateFormatter+WZMChat.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		754A1FED22E2BF24005A0585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FEF22E2BF24005A0585 /* WZMChatViewController.h */,
+				754A1FEE22E2BF24005A0585 /* WZMChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		754A1FF022E2BF24005A0585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FF122E2BF24005A0585 /* WZMChatBaseModel */,
+				754A1FF422E2BF24005A0585 /* WZMChatUserModel */,
+				754A1FFB22E2BF24005A0585 /* WZMChatMessageModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		754A1FF122E2BF24005A0585 /* WZMChatBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FF222E2BF24005A0585 /* WZMChatBaseModel.h */,
+				754A1FF322E2BF24005A0585 /* WZMChatBaseModel.m */,
+			);
+			path = WZMChatBaseModel;
+			sourceTree = "<group>";
+		};
+		754A1FF422E2BF24005A0585 /* WZMChatUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FF522E2BF24005A0585 /* WZMChatUserModel.h */,
+				754A1FF922E2BF24005A0585 /* WZMChatUserModel.m */,
+				754A1FF722E2BF24005A0585 /* WZMChatGroupModel.h */,
+				754A1FFA22E2BF24005A0585 /* WZMChatGroupModel.m */,
+				754A1FF822E2BF24005A0585 /* WZMChatSessionModel.h */,
+				754A1FF622E2BF24005A0585 /* WZMChatSessionModel.m */,
+			);
+			path = WZMChatUserModel;
+			sourceTree = "<group>";
+		};
+		754A1FFB22E2BF24005A0585 /* WZMChatMessageModel */ = {
+			isa = PBXGroup;
+			children = (
+				754A1FFD22E2BF24005A0585 /* WZMChatMessageModel.h */,
+				754A1FFC22E2BF24005A0585 /* WZMChatMessageModel.m */,
+			);
+			path = WZMChatMessageModel;
+			sourceTree = "<group>";
+		};
+		BF51ABE6D1E6A1CF32161B9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA87E10E035E427AAE16050 /* Pods-WZMChatUI.debug.xcconfig */,
+				2BE9DBEBB47A43E3AE585AE5 /* Pods-WZMChatUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754A1F7722E2BE53005A0585 /* WZMChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754A1F8822E2BE54005A0585 /* Build configuration list for PBXNativeTarget "WZMChatUI" */;
+			buildPhases = (
+				D2F6BB32D1F89900034AC4FC /* [CP] Check Pods Manifest.lock */,
+				754A1F7422E2BE53005A0585 /* Sources */,
+				754A1F7522E2BE53005A0585 /* Frameworks */,
+				754A1F7622E2BE53005A0585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZMChatUI;
+			productName = WZMChatUI;
+			productReference = 754A1F7822E2BE53005A0585 /* WZMChatUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		754A1F7022E2BE53005A0585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WangZhaomeng;
+				TargetAttributes = {
+					754A1F7722E2BE53005A0585 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 754A1F7322E2BE53005A0585 /* Build configuration list for PBXProject "WZMChatUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754A1F6F22E2BE53005A0585;
+			productRefGroup = 754A1F7922E2BE53005A0585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				754A1F7722E2BE53005A0585 /* WZMChatUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754A1F7622E2BE53005A0585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754A1F7F22E2BE54005A0585 /* Assets.xcassets in Resources */,
+				753D70D222E42EC500A55E83 /* preview.png in Resources */,
+				64EA8AB9256CB006007EC7C3 /* WZMLaunchScreen.storyboard in Resources */,
+				753D70D322E42EC500A55E83 /* setting.png in Resources */,
+				7505DE0422E6A3660012A2E9 /* WZMEmojis.plist in Resources */,
+				7505DE0522E6A3660012A2E9 /* WZMEmoticon1.plist in Resources */,
+				7505DE0622E6A3660012A2E9 /* WZMEmoticon2.plist in Resources */,
+				7505DE0722E6A3660012A2E9 /* WZMEmoticon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2F6BB32D1F89900034AC4FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZMChatUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754A1F7422E2BE53005A0585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754A201022E2BF24005A0585 /* WZMChatSystemCell.m in Sources */,
+				7505DDFE22E69F720012A2E9 /* WZMInputHelper.m in Sources */,
+				04B81FC726CE8122009CBA63 /* BaseManager.m in Sources */,
+				7505DDF622E69F720012A2E9 /* WZMDeleteCell.m in Sources */,
+				7505DDEF22E69F710012A2E9 /* WZMInputBtn.m in Sources */,
+				7505DDF722E69F720012A2E9 /* WZMEmojisCell.m in Sources */,
+				754A202222E2BF24005A0585 /* WZMChatMessageModel.m in Sources */,
+				754A200022E2BF24005A0585 /* WZMChatNotificationManager.m in Sources */,
+				754A202022E2BF24005A0585 /* WZMChatUserModel.m in Sources */,
+				7505DDF322E69F720012A2E9 /* WZMHorizontalLayout.m in Sources */,
+				754A201722E2BF24005A0585 /* NSDateFormatter+WZMChat.m in Sources */,
+				7505DDF222E69F710012A2E9 /* WZMEmoticonManager.m in Sources */,
+				7505DDF522E69F720012A2E9 /* WZMBlankCell.m in Sources */,
+				754A1F9D22E2BEB6005A0585 /* WZMSessionTableViewCell.m in Sources */,
+				754A201E22E2BF24005A0585 /* WZMChatBaseModel.m in Sources */,
+				754A201222E2BF24005A0585 /* WZMChatImageMessageCell.m in Sources */,
+				7505DDF422E69F720012A2E9 /* WZMEmoticonCell.m in Sources */,
+				754A200322E2BF24005A0585 /* WZMChatDBManager.m in Sources */,
+				754A201422E2BF24005A0585 /* WZMChatMessageCell.m in Sources */,
+				7505DDF022E69F710012A2E9 /* WZMRecordAnimation.m in Sources */,
+				754A1F9A22E2BEB6005A0585 /* WZMUserViewController.m in Sources */,
+				754A1F9C22E2BEB6005A0585 /* WZMSessionViewController.m in Sources */,
+				754A1F8522E2BE54005A0585 /* main.m in Sources */,
+				7505DE0322E6A0940012A2E9 /* WZMChatBtn.m in Sources */,
+				754A201F22E2BF24005A0585 /* WZMChatSessionModel.m in Sources */,
+				754A200422E2BF24005A0585 /* WZMChatBaseCell.m in Sources */,
+				7505DE0022E69F720012A2E9 /* WZMBaseInputView.m in Sources */,
+				754A1F9B22E2BEB6005A0585 /* WZMUserTableViewCell.m in Sources */,
+				754A1F7D22E2BE53005A0585 /* WZMAppDelegate.m in Sources */,
+				754A201B22E2BF24005A0585 /* UIView+WZMChat.m in Sources */,
+				754A1FFF22E2BF24005A0585 /* WZMChatMessageManager.m in Sources */,
+				754A200122E2BF24005A0585 /* WZMChatHelper.m in Sources */,
+				7505DDEE22E69F710012A2E9 /* WZMInputView.m in Sources */,
+				754A201122E2BF24005A0585 /* WZMChatTextMessageCell.m in Sources */,
+				7505DDFF22E69F720012A2E9 /* WZMInputBase64.m in Sources */,
+				7505DDF922E69F720012A2E9 /* WZMMoreKeyboard.m in Sources */,
+				754A200222E2BF24005A0585 /* WZMChatSqliteManager.m in Sources */,
+				754A201322E2BF24005A0585 /* WZMChatVideoMessageCell.m in Sources */,
+				754A201522E2BF24005A0585 /* WZMChatVoiceMessageCell.m in Sources */,
+				7505DDF122E69F710012A2E9 /* WZMToolView.m in Sources */,
+				04B81FC626CE8122009CBA63 /* XPYMQTTManager.m in Sources */,
+				7505DDF822E69F720012A2E9 /* WZMEmojisKeyboard.m in Sources */,
+				754A201D22E2BF24005A0585 /* WZMChatViewController.m in Sources */,
+				754A202122E2BF24005A0585 /* WZMChatGroupModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		754A1F8622E2BE54005A0585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		754A1F8722E2BE54005A0585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754A1F8922E2BE54005A0585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA87E10E035E427AAE16050 /* Pods-WZMChatUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
+				DEVELOPMENT_TEAM = N5235VSJJ4;
+				INFOPLIST_FILE = "$(SRCROOT)/WZMChatUI/WZMAppDelegete/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.mqttApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = (
+					"-Wno-implicit-retain-self",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Debug;
+		};
+		754A1F8A22E2BE54005A0585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE9DBEBB47A43E3AE585AE5 /* Pods-WZMChatUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0.1;
+				DEVELOPMENT_TEAM = N5235VSJJ4;
+				INFOPLIST_FILE = "$(SRCROOT)/WZMChatUI/WZMAppDelegete/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.mqttApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = (
+					"-Wno-implicit-retain-self",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754A1F7322E2BE53005A0585 /* Build configuration list for PBXProject "WZMChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754A1F8622E2BE54005A0585 /* Debug */,
+				754A1F8722E2BE54005A0585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754A1F8822E2BE54005A0585 /* Build configuration list for PBXNativeTarget "WZMChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754A1F8922E2BE54005A0585 /* Debug */,
+				754A1F8A22E2BE54005A0585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 754A1F7022E2BE53005A0585 /* Project object */;
+}

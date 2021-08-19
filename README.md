@@ -14,8 +14,10 @@ iOS 9.0+
 图标，ICON，封面等资源均为开发使用，并非商业用途。
 
 ## 截图
-<img width="267" alt="111111" src="https://user-images.githubusercontent.com/15797691/130083346-7f432482-6928-4698-8534-bd3a783f9bd8.png">
 <img width="267" alt="2222" src="https://user-images.githubusercontent.com/15797691/130083321-7b8b0c0e-a9b3-4787-a2fc-d216bdfeba77.png">
+
+<img width="267" alt="111111" src="https://user-images.githubusercontent.com/15797691/130083346-7f432482-6928-4698-8534-bd3a783f9bd8.png">
+
 <img width="267" alt="22224" src="https://user-images.githubusercontent.com/15797691/130083365-2e67ca52-cff5-46bf-a159-56380392756f.png">
 
 

@@ -21,6 +21,9 @@ iOS 9.0+
 <img width="267" alt="22224" src="https://user-images.githubusercontent.com/15797691/130083365-2e67ca52-cff5-46bf-a159-56380392756f.png">
 
 
+### MQTT配置修改
+<img width="500" alt="WX20211009-143639@2x" src="https://user-images.githubusercontent.com/15797691/136647138-4cd3804f-bf01-446d-9552-2be0d97717ff.png">
+<img width="500" alt="WX20211009-110551@2x" src="https://user-images.githubusercontent.com/15797691/136647095-d1d4790a-aa13-49ae-aceb-3973f851461c.png">
 
 
 
